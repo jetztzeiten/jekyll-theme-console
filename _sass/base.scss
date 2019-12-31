@@ -6,8 +6,8 @@
  */
 //$base-font-family:     'Source Code Pro', monospace !default;
 $base-font-family:     'EB Garamond', serif !default;
-$base-font-size:       14px !default;
-$mobile-font-size:     12px !default;
+$base-font-size:       16px !default;
+$mobile-font-size:     14px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
 $container-max-width:  800px !default;
@@ -22,6 +22,7 @@ a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 .primary-text { color: var(--primary-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
+code { line-height: 1; }
 /*h1:before { content: "#";  margin-right: 9px; }
 h2:before { content: "##";  margin-right: 9px; }
 h3:before { content: "###";  margin-right: 9px; }
